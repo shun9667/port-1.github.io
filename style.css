@@ -1,0 +1,387 @@
+.main-name {
+  font-family: "Ephesis";
+  font-size: 7rem;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 3.2rem;
+}
+
+.main-name-link:link,
+.main-name-link:visited {
+  text-decoration: none;
+  cursor: pointer;
+  color: #042e35;
+  transition: all 0.3s;
+}
+
+.main-name-link:hover,
+.main-name-link:active {
+  color: #238091;
+}
+
+.main-img---1 {
+  display: inline-block;
+  width: 100%;
+}
+
+.main-nav-list {
+  font-size: 1.8rem;
+  letter-spacing: 0.07rem;
+  padding-top: 3rem;
+  padding-bottom: 0.4rem;
+  position: relative;
+  font-weight: 600;
+  color: #042e35;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 4.8rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  cursor: pointer;
+  color: #042e35;
+  transition: all 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #238091;
+}
+
+.main-icon-list {
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+  margin-right: 4.8rem;
+}
+
+.main-icon {
+  color: #042e35;
+  width: 2rem;
+  height: 2rem;
+  padding-bottom: 0.4rem;
+}
+
+.main-icon:link,
+.main-icon:visited {
+  cursor: pointer;
+  color: #042e35;
+}
+
+.main-icon:hover,
+.main-icon:active {
+  color: #238091;
+  transition: all 0.3s;
+}
+
+/* MOBILE */
+.btn-mobile-nav-box {
+  display: flex;
+  justify-content: end;
+}
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+.mobile-btn {
+  height: 4.8rem;
+  width: 4.8rem;
+}
+
+/* モバイル系統を隠すコード */
+.mobile-btn[name="close-outline"] {
+  display: none;
+}
+
+/* section-about */
+.section-title {
+  letter-spacing: 0.3rem;
+  font-size: 4.8rem;
+  margin-top: 12.8rem;
+  text-align: center;
+}
+
+.about-sub-text {
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+
+p {
+  letter-spacing: 0.3rem;
+  line-height: 3rem;
+  font-size: 1.4rem;
+}
+
+.about-last-text {
+  text-align: center;
+}
+
+.garrely {
+  margin-top: 4.8rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+.menu-icon {
+  color: #042e35;
+  align-items: center;
+  padding-right: 0.8rem;
+}
+
+.menu-title {
+  font-size: 2.4rem;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.menu-box {
+  color: #042e35;
+  background-color: #fff;
+  padding: 3.2rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  height: auto;
+  transition: all 0.4s;
+}
+
+.menu-box:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.menu-box li {
+  line-height: 4rem;
+  margin-left: 2.4rem;
+}
+
+.form-box {
+  margin-top: 4.8rem;
+  padding: 3.2rem 3.2rem 0 3.2rem;
+}
+.form-title {
+  font-size: 3.2rem;
+  letter-spacing: 0.3rem;
+  padding-bottom: 2.4rem;
+}
+
+.form-icon {
+  padding-right: 1.6rem;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.form-tell {
+  padding-bottom: 2.4rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+}
+.form-button {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+  padding: 1.2rem 2.4rem;
+  color: #f5f9fa;
+  background-color: #042e35;
+  border: solid 1px #042e35;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.form-button:hover {
+  background-color: #238091;
+  transform: scale(1.1);
+}
+
+.form-button-icon {
+  padding-right: 1.2rem;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.form-list {
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+}
+
+.form-text {
+  letter-spacing: 0.2rem;
+  padding-bottom: 2.4rem;
+}
+
+.stylist-img {
+  width: 80%;
+  height: auto;
+  padding-left: 1.6rem;
+}
+
+.stylist-profile {
+  font-style: italic;
+}
+
+.stylist-name {
+  font-size: 2.4rem;
+}
+
+.stylist-name-- {
+  padding-bottom: 2.4rem;
+}
+
+.stylist-text {
+  line-height: 2rem;
+}
+
+.access-box {
+  align-self: center;
+  padding-left: 1.6rem;
+}
+
+.salon-name {
+  font-family: "Noto Serif";
+  font-weight: 700;
+  font-size: 3.2rem;
+  padding-bottom: 2.4rem;
+}
+
+.salon-access {
+  font-size: 1.6rem;
+}
+
+.map {
+  margin-top: 3.2rem;
+}
+
+.form-title--2 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  padding-bottom: 2.4rem;
+}
+
+.form-text--2 {
+  padding-bottom: 2.4rem;
+  letter-spacing: 0.2rem;
+}
+
+.footer-name {
+  font-family: "Ephesis";
+  font-size: 5.2rem;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 3.2rem;
+}
+
+.footer-name-link:link,
+.footer-name-link:visited {
+  text-decoration: none;
+  cursor: pointer;
+  color: #f5f9fa;
+  transition: all 0.3s;
+}
+
+.footer-name-link:hover,
+.footer-name-link:active {
+  color: #238091;
+}
+
+.footer-nav-list {
+  font-size: 1.8rem;
+  letter-spacing: 0.07rem;
+  padding-top: 4.8rem;
+  padding-bottom: 0.4rem;
+  position: relative;
+  font-weight: 600;
+  color: #f5f9fa;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 4.8rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  cursor: pointer;
+  color: #f5f9fa;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #238091;
+}
+
+.footer-icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2.4rem;
+}
+
+.footer-icon {
+  color: #f5f9fa;
+  width: 2rem;
+  height: 2rem;
+  padding-bottom: 0.4rem;
+}
+
+.footer-icon:link,
+.footer-icon:visited {
+  cursor: pointer;
+  color: #f5f9fa;
+}
+
+.footer-icon:hover,
+.footer-icon:active {
+  color: #238091;
+  transition: all 0.3s;
+}
+
+.footer-text-list {
+  list-style: none;
+  color: #f5f9fa;
+  font-family: "Noto Serif JP";
+  line-height: 3rem;
+}
+
+.footer-map-link:link,
+.footer-map-link:visited {
+  color: #f5f9fa;
+}
+
+.footer-map-link:hover,
+.footer-map-link:active {
+  text-decoration: none;
+}
+
+.footer-text-list-title {
+  padding-bottom: 1.2rem;
+}
