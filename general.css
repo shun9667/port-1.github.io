@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* Safariでは使えない */
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  font-family: "Noto Serif";
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  font-size: 1.6rem;
+  background-color: #f5f9fa;
+  overflow-x: hidden;
+}
+
+.header {
+  z-index: 100;
+}
+
+.sticky .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 8rem;
+  background-color: hsla(192, 33%, 97%, 0.856);
+  padding-top: 0;
+  padding-bottom: 0;
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+}
+
+.sticky .main-img {
+  margin-top: 8.6rem;
+}
+
+.container {
+  max-width: 130rem;
+  padding: 0 23rem;
+  margin: 0 auto;
+}
+
+.about-section-grid {
+  display: grid;
+  row-gap: 4.8rem;
+  max-width: 100rem;
+  padding: 0 23rem;
+  margin: 0 auto;
+}
+
+.about-text {
+  font-size: 1.6rem;
+  color: #042e35;
+  font-family: "Noto Serif JP";
+}
+
+.section-title {
+  color: #042e35;
+  font-family: "Noto Serif";
+}
+
+.menu-box-list {
+  max-width: 130rem;
+  margin: 0 auto;
+  margin-top: 3.2rem;
+  padding: 1.6rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.4rem;
+  border-radius: 1.1rem;
+}
+
+.menu-list {
+  font-family: "Noto Serif JP";
+}
+
+.form-section {
+  font-family: "Noto Serif JP";
+  color: #042e35;
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.stylist-box-list {
+  font-family: "Noto Serif JP";
+  color: #042e35;
+  max-width: 130rem;
+  margin: 0 auto;
+  padding-top: 3.2rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.2rem;
+}
+
+.access-section {
+  font-family: "Noto Serif JP";
+  color: #042e35;
+  max-width: 130rem;
+  margin: 0 auto;
+  margin-bottom: 12.8rem;
+}
+
+.access-box-list {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2.4rem;
+}
+
+iframe {
+  filter: grayscale(1);
+}
+
+.form-section--2 {
+  color: #042e35;
+  font-family: "Noto Serif JP";
+  background-color: #e7edee;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  text-align: center;
+}
+
+.footer {
+  background-color: #042e35;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.footer-text-box-list {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 15rem;
+  margin-top: 3.2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3.2rem;
+}
